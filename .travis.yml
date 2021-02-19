@@ -18,5 +18,5 @@ jdk:
   - openjdk8
   - openjdk11
 script:
-  - mvn clean install
+  - mvn clean install -X
   - mvn test
