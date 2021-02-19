@@ -12,6 +12,7 @@
 arch: 
   - amd64
   - ppc4le
+  
 language: java
 jdk: 
   - openjdk8
