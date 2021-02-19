@@ -1,0 +1,19 @@
+# ----------------------------------------------------------------------------
+#
+# Package             : spring-boot-actuator
+# Source Repo         : https://github.com/spring-projects/spring-boot.git
+# Travis Job Link     : 
+# Created travis.yml  : Yes
+# Maintainer          : Santosh Kulkarni <santoshkulkarni70@gmail.com>
+#
+# Script License      : Apache 2.0
+#
+# ----------------------------------------------------------------------------
+arch: 
+  - amd64
+  - ppc4le
+language: jdk
+jdk: opejdk11
+script:
+  - mvn clean install
+  - mvn test
