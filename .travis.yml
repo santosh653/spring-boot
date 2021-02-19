@@ -17,6 +17,5 @@ jdk:
   - openjdk8
   - openjdk11
 script:
-  - mvn -f https://github.com/santosh653/spring-boot/ci/images/releasescripts/pom.xml
   - mvn clean install
   - mvn test
